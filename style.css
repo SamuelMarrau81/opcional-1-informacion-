@@ -3,7 +3,7 @@
 *{
   padding: 0;
   margin: 0;
-  font-family: "poppins", sans-serif;
+  font-family: "arial", sans-serif;
   box-sizing: border-box;
 }
 
@@ -16,7 +16,8 @@ body{
   justify-content: center;
   align-items: center;
   background-color: #fff;
-  margin: 5% 15%;
+  margin: 10% 10%;
+  padding: 50px;
   border-radius: 5px;
   border:1px solid #fff;
 }
@@ -25,7 +26,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top:50px ;
+  padding-top:05px ;
   margin: 20px;
   color: blue;
 }
@@ -48,22 +49,40 @@ body{
 }
 
 .informacion{
-  display: fixed;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,50px);
+  grid-gap: 100px;
+  margin: 10px;
+  padding: 30px;
 }
 
 
 div{
-  background-color: blueviolet;
-  margin: 5% 10%;
-  padding: 5%;
+  display: block;
+  text-align:left;
+  padding: 25px;
+}
+
+img{
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-color: #4040fb;
+  border-radius: 60%;
+  padding:5px ;
 }
 
 
+#icono{
+  color: #fff;
+}
 
+h2{
+  font-size: 20px;
+  padding: 10px 0 10px 0;
 
-
-
+}
 
 
 
